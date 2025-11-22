@@ -1,0 +1,147 @@
+<style>
+/*https://image.smallbottle.top/portrait*/
+/*https://image.smallbottle.top/landscape*/
+<link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-webfont@1.1.0/lxgwwenkai-regular.css" />
+
+  /* 去除通知栏 右上角 X */
+  .notify-render .hope-close-button {
+    display: none;
+  }
+  /*去掉底部*/
+  .footer {
+    display: none !important;
+  }
+
+  /*全局字体*/
+  * {
+    font-family: LXGW WenKai;
+  }
+  * {
+    font-weight: bold;
+  }
+  body {
+    font-family: LXGW WenKai;
+  }
+
+ #canvas-basic {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -999;
+  }
+  
+/* 默認背景圖片 */
+.hope-ui-dark, .hope-ui-light {
+    background-image: url(https://image.smallbottle.top) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+}
+
+/* 豎屏設備 */
+@media screen and (orientation: portrait) {
+    .hope-ui-dark, .hope-ui-light {
+        background-image: url(https://www.loliapi.com/acg/pe/) !important;
+    }
+}
+
+/* 橫屏設備 */
+@media screen and (orientation: landscape) {
+    .hope-ui-dark, .hope-ui-light {
+        background-image: url(https://image.smallbottle.top/landscape) !important;
+    }
+}
+
+/*頂欄模糊*/
+.header.hope-center.hope-c-jKOUQW.hope-c-PJLV.hope-c-PJLV-ikaMhsQ-css{
+background-color:rgba(255, 255, 255, 5%) !important;
+backdrop-filter:blur(12px)!important;}
+
+/* 導航欄模糊 */
+.nav.hope-breadcrumb.hope-c-hrsMRY.hope-c-PJLV.hope-c-PJLV-idaeksS-css{
+background-color:rgba(128, 128, 128, 75%) !important;
+backdrop-filter:blur(80px)!important;
+border-radius: 8px;
+-webkit-backdrop-filter: blur(80px); /* 兼容 Safari */}
+
+/*文件列表深色模糊*/
+.obj-box.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-iigjoxS-css{
+background-color:rgb(128 128 128 / 30%)!important;
+backdrop-filter:blur(16px)!important;}
+/*文件列表淺色模糊*/
+.obj-box.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-igScBhH-css{
+background-color:rgba(128, 128, 128, 30%) !important;
+backdrop-filter:blur(16px)!important;
+-webkit-backdrop-filter: blur(16px); /* 兼容 Safari */}
+
+/*公告深色模糊*/
+.hope-c-PJLV.hope-c-PJLV-iiuDLME-css{
+background-color:rgb(0 0 0 / 20%) !important;
+backdrop-filter:blur(4px)!important;
+-webkit-backdrop-filter: blur(4px); /* 兼容 Safari */}
+/*公告淺色模糊*/
+.hope-c-PJLV.hope-c-PJLV-ikSuVsl-css{
+background-color:rgb(255 255 255 / 10%) !important;
+backdrop-filter:blur(4px)!important;
+-webkit-backdrop-filter: blur(4px); /* 兼容 Safari */}
+
+/*右下角操作欄模糊*/
+.hope-c-PJLV-ijgzmFG-css{
+background-color: rgba(255, 255, 255, 5%)!important;
+backdrop-filter:blur(8px)!important;
+-webkit-backdrop-filter: blur(8px); /* 兼容 Safari */}
+    </style>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <meta name="referrer" content="same-origin" >
+    <meta name="generator" content="AList V3" >
+    <meta name="theme-color" content="#000000" >
+    <meta name="google" content="notranslate" >
+    <meta name="apple-mobile-web-app-capable" content="yes" >
+    <meta name="apple-mobile-web-app-title" content="AList" >
+    <link rel="apple-touch-icon" href="https://jsd.nn.ci/gh/alist-org/logo@main/logo.png" >
+    <script src="https://g.alicdn.com/IMM/office-js/1.1.5/aliyun-web-office-sdk.min.js" async ></script>
+    <link rel="shortcut icon" type="image/ico" href="https://lzacg.org/wp-content/uploads/2022/01/1642732211-7CD75A1C-E498-44FB-8E90-468502B354ED.jpeg" >
+    <title>量子ACG</title>
+    <script>
+      window.ALIST = {
+        cdn: '',
+        monaco_cdn: undefined,
+        base_path: '/',
+        api: undefined,
+        main_color: '#1890ff',
+      }
+      window.__dynamic_base__ = window.ALIST.cdn || ""
+    </script>
+    <script type="module">try{import.meta.url;import("_").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>
+    <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=window.__dynamic_base__+e.getAttribute('data-src'),n.onload=function(){System.import(window.__dynamic_base__+document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
+    <script>
+(function(){
+var preloads = [{"parentTagName":"head","tagName":"link","attrs":{"href":"/static/manifest.json","rel":"manifest"}},{"parentTagName":"head","tagName":"script","attrs":{"type":"module","crossorigin":"","src":"/assets/index.0d2838ba.js"}},{"parentTagName":"head","tagName":"link","attrs":{"rel":"stylesheet","href":"/assets/index.c4c82a28.css"}}];
+function setAttribute(target, attrs) {
+  for (var key in attrs) {
+    target.setAttribute(key, attrs[key]);
+  }
+  return target;
+};
+for(var i = 0; i < preloads.length; i++){
+  var item = preloads[i];
+  var childNode = document.createElement(item.tagName);
+  setAttribute(childNode, item.attrs);
+  if(window.__dynamic_base__) {
+    if(item.tagName == 'link') {
+      setAttribute(childNode, { href: window.__dynamic_base__ + item.attrs.href });
+    } else if (item.tagName == 'script') {
+      setAttribute(childNode, { src: window.__dynamic_base__ + item.attrs.src });
+    }
+  }
+  document.getElementsByTagName(item.parentTagName)[0].appendChild(childNode);
+}
+})();
+    </script>
