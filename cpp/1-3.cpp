@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 const int N=1e2+10;
 int n,a[N],flag[N];
